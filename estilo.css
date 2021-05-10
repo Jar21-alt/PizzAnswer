@@ -1,19 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.encabezadomenu{
-    background:#EA6969;
+
+.encabezadomenu {
+    background: #EA6969;
 }
-.encabezadomenu nav{
+
+.encabezadomenu nav {
     display: flex;
     justify-content: space-around;
+    height: 5em;
 }
-.encabezadomenu nav ul{
+
+.encabezadomenu nav ul {
     list-style: none;
     display: flex;
+    font: 3em sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     font-size: 15px;
     color: white;
