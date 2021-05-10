@@ -1,23 +1,27 @@
-.menuPizza{
+.menuPizza {
     background-color: #EA6969;
-    height: 50px;
+    height: 5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fff;
 }
-.menupizza_item{
+
+.menupizza_item {
     display: flex;
     list-style: none;
     margin-right: 30px;
 }
-.menupizza_item li{
+
+.menupizza_item li {
     border-radius: 3px;
     margin: 0 5px;
 }
-.menupizza_item li a{
+
+.menupizza_item li a {
     padding: 8px 13px;
     font-size: 20px;
+    font: 1em sans-serif;
+    font-size: 1.5em;
     text-decoration: none;
     color: white;
 }
