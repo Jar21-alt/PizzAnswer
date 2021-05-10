@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezadomenu{
+    background:#EA6969;
+}
+.encabezadomenu nav{
+    display: flex;
+    justify-content: space-around;
+}
+.encabezadomenu nav ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 12px 20px;
+}
