@@ -1,21 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.encabezadomenu{
-    background:#EA6969;
-}
-.encabezadomenu nav{
+.menuPizza{
+    background-color: #EA6969;
+    height: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
 }
-.encabezadomenu nav ul{
+.menupizza_item{
+    display: flex;
     list-style: none;
-    display: flex;
+    margin-right: 30px;
 }
-a{
-    text-decoration: none;
-    font-size: 15px;
+.menupizza_item li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.menupizza_item li a{
     color: white;
-    padding: 12px 20px;
 }
