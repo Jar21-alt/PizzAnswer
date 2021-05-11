@@ -35,15 +35,14 @@
 
 .menupizza_item li a { 
     padding: 8px 13px;
-    font-size: 20px;
     font: 1em Roboto-Bold;
-    font-size: 1.5em;
+    font-size: 1em;
     text-decoration: none;
     color: white;
 }
 .logoPizza {
     position: relative;
-    right:260px;
+    right:300px;
     color:white;
     font-size: 50px;
     font-family: Satisfy-Regular;
@@ -95,12 +94,30 @@
 }
 .section2{
     position: relative;
-    right: -230;
+    right: -260;
     float: left;
     width: 280px;
     background-color: #EA6969;
 }
 .article_dos{
+    background: #E5BBBB;
+    text-align: justify;
+    padding: 5px;
+}
+.promoSec3{
+    font-size: 20px;
+    font: 2em Roboto-Bold;
+    text-align: center;
+    color: white;
+}
+.section3{
+    position: relative;
+    right: -450;
+    float: left;
+    width: 280px;
+    background-color: #EA6969;
+}
+.article_tres{
     background: #E5BBBB;
     text-align: justify;
     padding: 5px;
