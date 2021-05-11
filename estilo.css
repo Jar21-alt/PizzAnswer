@@ -122,3 +122,10 @@
     text-align: justify;
     padding: 5px;
 }
+.derechos{
+    position: relative;
+    top:400px;
+    font-family:Roboto-Black;
+    left: -350px;
+    font-size:15px;
+}
