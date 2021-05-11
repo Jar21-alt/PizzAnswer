@@ -20,7 +20,7 @@
 .menupizza_item li a { 
     padding: 8px 13px;
     font-size: 20px;
-    font: 1em sans-serif;
+    font: 1em Roboto-Bold;
     font-size: 1.5em;
     text-decoration: none;
     color: white;
@@ -29,9 +29,23 @@
     font-family:Satisfy-Regular;
     src:url(fonts/Satisfy-Regular.ttf);
 }
+@font-face{
+    font-family:Roboto-Bold;
+    src:url(fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family:Shanti-Regular;
+    src:url(fonts/Shanti-Regular.ttf)
+}
 .logoPizza {
     color:white;
-    font-size: 40px;
+    font-size: 50px;
     font-family: Satisfy-Regular;
-    padding: 90px;
+    padding: 120px;
+}
+.tituloBien{
+    color: #464545;
+    font-size: 50px;
+    font-family:Shanti-Regular;
+    text-align: center;
 }
