@@ -1,3 +1,19 @@
+@font-face{
+    font-family:Satisfy-Regular;
+    src:url(fonts/Satisfy-Regular.ttf);
+}
+@font-face{
+    font-family:Roboto-Bold;
+    src:url(fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family:Shanti-Regular;
+    src:url(fonts/Shanti-Regular.ttf)
+}
+@font-face {
+    font-family:Robot-Black;
+    src: url(fonts/Roboto-Black.ttf);
+}
 .menuPizza {
     background-color: #EA6969;
     height: 5em;
@@ -25,18 +41,6 @@
     text-decoration: none;
     color: white;
 }
-@font-face{
-    font-family:Satisfy-Regular;
-    src:url(fonts/Satisfy-Regular.ttf);
-}
-@font-face{
-    font-family:Roboto-Bold;
-    src:url(fonts/Roboto-Bold.ttf);
-}
-@font-face{
-    font-family:Shanti-Regular;
-    src:url(fonts/Shanti-Regular.ttf)
-}
 .logoPizza {
     color:white;
     font-size: 50px;
@@ -48,4 +52,23 @@
     font-size: 50px;
     font-family:Shanti-Regular;
     text-align: center;
+}
+.promo1{
+    width: 309px;
+}
+.promoSec{
+    font-size: 30px;
+    font-family: Roboto-Black;
+}
+.section{
+    position: relative;
+    float: left;
+    border: 3px solid black;
+    width: 300px;
+}
+.article_uno{
+    background: gray;
+    text-align: justify;
+    border: 1px solid black;
+    padding: 13px;
 }
