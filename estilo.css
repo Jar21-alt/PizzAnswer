@@ -42,6 +42,8 @@
     color: white;
 }
 .logoPizza {
+    position: relative;
+    right:260px;
     color:white;
     font-size: 50px;
     font-family: Satisfy-Regular;
@@ -56,7 +58,7 @@
 .promo1{
     position: relative;
     right: 20;
-    width: 309px;
+    width: 300px;
 }
 .promoSec1{
     font-size: 20px;
@@ -66,9 +68,9 @@
 }
 .section1{
     position: relative;
-    right: -30;
+    right: -60;
     float: left;
-    width: 300px;
+    width: 280px;
     background-color: #EA6969;
 }
 .article_uno{
@@ -78,8 +80,12 @@
 }
 .promo2{
     position: relative;
-    right: -30;
+    right: -40px;
     width: 200px;
+}
+.logoP{
+    position: relative;
+    width: 90px;
 }
 .promoSec2{
     font-size: 20px;
@@ -89,13 +95,13 @@
 }
 .section2{
     position: relative;
-    right: -235;
+    right: -230;
     float: left;
-    width: 300px;
+    width: 280px;
     background-color: #EA6969;
 }
 .article_dos{
     background: #E5BBBB;
     text-align: justify;
-    padding: 13px;
+    padding: 5px;
 }
