@@ -8,7 +8,7 @@ $pass = 'I8r8vJ2nEp';
 try {
     $pdo = new PDO($link, $usuario, $pass);
 
-    echo 'Conectado';
+    //echo 'Conectado';
 } catch (PDOException $e) {
     print "¡Error!: " . $e->getMessage() . "<br\>";
     die();
