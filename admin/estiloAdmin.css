@@ -1,18 +1,18 @@
 @font-face{
     font-family:Satisfy-Regular;
-    src:url(..fonts/Satisfy-Regular.ttf);
+    src:url(../fonts/Satisfy-Regular.ttf);
 }
 @font-face{
     font-family:Roboto-Bold;
-    src:url(..fonts/Roboto-Bold.ttf);
+    src:url(../fonts/Roboto-Bold.ttf);
 }
 @font-face{
     font-family:Shanti-Regular;
-    src:url(..fonts/Shanti-Regular.ttf)
+    src:url(../fonts/Shanti-Regular.ttf)
 }
 @font-face {
     font-family:Robot-Black;
-    src: url(..fonts/Roboto-Black.ttf);
+    src: url(../fonts/Roboto-Black.ttf);
 }
 .menuPizza {
     background-color: #3C3C3C;
@@ -44,6 +44,9 @@
     text-decoration: none;
     color: white;
 }
+.menupizza_item li a .SalirR{
+ color: red;
+}
 .logoPizza {
     position: relative;
     right:300px;
@@ -51,4 +54,8 @@
     font-size: 50px;
     font-family: Satisfy-Regular;
     padding: 120px;
+}
+.logoP{
+    position: relative;
+    width: 88px;
 }

@@ -10,11 +10,11 @@
 <body>
     <header>
     <nav class = "menuPizza">
-        <img src="images/logo.PNG" class="logoP">
+        <img src="../images/logoNegro.PNG" class="logoP">
         <label class="logoPizza">PizzAnswer</label>
         <ul class="menupizza_item">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="promociones.html">Promociones</a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Promociones</a></li>
             <li><a href="#">Encuesta</a></li>
             <li><a href="#">Salir</a></li>
         </ul>
