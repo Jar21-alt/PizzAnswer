@@ -1,12 +1,10 @@
-<?php
-include_once 'conexion.php';
-?>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type="text/css" href="estilo.css">
+    <link rel='stylesheet' type="text/css" href="estiloAdmin.css">
     <title>Gerente Inicio</title>
 </head>
 <body>
@@ -17,7 +15,8 @@ include_once 'conexion.php';
         <ul class="menupizza_item">
             <li><a href="index.php">Inicio</a></li>
             <li><a href="promociones.html">Promociones</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Encuesta</a></li>
+            <li><a href="#">Salir</a></li>
         </ul>
     </nav>
     </header>
