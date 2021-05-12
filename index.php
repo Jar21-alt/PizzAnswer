@@ -1,5 +1,6 @@
-
-<!DOCTYPE html>
+<?php
+include_once 'conexion.php';
+?>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +11,7 @@
     <title>Inicio</title>
 </head>
 <body>
-    <header class="encabezadomenu">
+    <header>
     <nav class = "menuPizza">
         <img src="images/logo.PNG" class="logoP">
         <label class="logoPizza">PizzAnswer</label>
@@ -21,6 +22,8 @@
         </ul>
     </nav>
     </header>
+    <section class="lateral1"></section>
+    <section class="lateral2"></section>
     <h1 class="tituloBien">Bienvenido(a)</h1>
     <section class="section1">
         <p class="promoSec1"> Promociones</p>
@@ -41,4 +44,5 @@
 		</article>
 	</section>
     <p class="derechos">2021 Ⓒ PizzAnswer Todos los derechos reservados. Términos y condiciones</p>
+</body>
 </html>
