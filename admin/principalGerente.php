@@ -16,9 +16,10 @@
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Promociones</a></li>
             <li><a href="#">Encuesta</a></li>
-            <li><a href="#">Salir</a></li> 
+            <li class="red"><a href="#">Salir</a></li> 
         </ul>
     </nav>
     </header>
+    <img src="../images/pizzGerent.PNG" class="logoGerentP">
 </body>
 </html>
