@@ -74,8 +74,35 @@ body{
     font-size: 35px;
     font-family:Roboto-Bold;
     text-align: left;
+    top: -230px;
+    right: -90px;
+}
+.tit3{
+    position: relative;
+    color: white;
+    font-size: 35px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: -210px;
+    right: -90px;
+}
+.tit4{
+    position: relative;
+    color: white;
+    font-size: 35px;
+    font-family:Roboto-Bold;
+    text-align: left;
     top: -180px;
-    right: -50px;
+    right: -90px;
+}
+.tit5{
+    position: relative;
+    color: white;
+    font-size: 35px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: -150px;
+    right: -90px;
 }
 .logoGerentP{
     position: relative;
