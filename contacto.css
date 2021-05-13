@@ -1,0 +1,94 @@
+body{
+    --width: 200px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.padreContacto{
+    width: 1200px;
+    margin: auto;
+}
+
+.contenedorFlex{
+    margin: 1%;
+    /*background-color: red;*/
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: 10px;
+  }
+
+.mapa{
+    width: 99%;
+    height: 99%;
+}
+  
+.left-column {
+    height: 100%;
+    margin: 5%;
+    border: 5px solid #EA6969;
+}
+
+.datosPizza{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #EA6969;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+
+.datosPizza div{
+    color: #fff;
+    font-weight: bolder;
+    font-family:Shanti-Regular;
+    text-align: center;
+    flex: 0 100%;
+    justify-content: space-between;
+}
+
+.nombrePiz{
+    font-size: 3em;
+    height: 1em;
+}
+
+.direcPiz{
+    font-size: 1.2em;
+    height: 1em;
+}
+
+.telPiz{
+    font-size: 1.2em;
+    height: 1em;
+}
+
+.datosPizza a{
+    margin: auto;
+    margin-top: 2%;
+    align-self: center;
+}
+
+.boton{
+    background-color: #EA6969;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    width: 21%;
+    margin: auto;
+    padding: 3px;
+    border-radius: 5px;
+}
