@@ -1,0 +1,85 @@
+@font-face{
+    font-family:Satisfy-Regular;
+    src:url(fonts/Satisfy-Regular.ttf);
+}
+@font-face{
+    font-family:Roboto-Bold;
+    src:url(fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family:Shanti-Regular;
+    src:url(fonts/Shanti-Regular.ttf)
+}
+@font-face {
+    font-family:Robot-Black;
+    src: url(fonts/Roboto-Black.ttf);
+}
+.menuPizza {
+    background-color: #3C3C3C;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 10px;
+    width: 1368;
+    top: -8px;
+}
+
+.menupizza_item {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menupizza_item li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menupizza_item li a { 
+    padding: 8px 13px;
+    font: 1em Roboto-Bold;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+}
+.logoPizza {
+    position: relative;
+    right:200px;
+    color:white;
+    font-size: 50px;
+    font-family: Satisfy-Regular;
+    padding: 120px;
+}
+.logoP{
+    position: relative;
+    width: 88px;
+}
+body{
+  background-color:gray;
+}
+.tit1{
+    position: relative;
+    color: white;
+    font-size: 65px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: -180px;
+    right: -100px;
+}
+.tit2{
+    position: relative;
+    color: white;
+    font-size: 35px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: -180px;
+    right: -50px;
+}
+.logoGerentP{
+    position: relative;
+    width: 400px;
+    right: -920px;
+    top: 20px;
+}
