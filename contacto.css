@@ -1,7 +1,21 @@
+@font-face{
+    font-family:Satisfy-Regular;
+    src:url(fonts/Satisfy-Regular.ttf);
+}
+@font-face{
+    font-family:Roboto-Bold;
+    src:url(fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family:Shanti-Regular;
+    src:url(fonts/Shanti-Regular.ttf)
+}
+@font-face {
+    font-family:Robot-Black;
+    src: url(fonts/Roboto-Black.ttf);
+}
 body{
-    --width: 200px;
     height: 100%;
-    background-color: #fff;
 }
 
 .padreContacto{
@@ -11,24 +25,24 @@ body{
 
 .contenedorFlex{
     margin: 1%;
-    /*background-color: red;*/
-  }
+    height: 100%;
+}
   
-  .row {
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 70%;
-  }
+}
   
-  .column {
+.column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
     margin: 10px;
-  }
+    height: 80%;
+}
 
 .mapa{
     width: 99%;
@@ -39,6 +53,10 @@ body{
     height: 100%;
     margin: 5%;
     border: 5px solid #EA6969;
+}
+
+.right-column{
+    overflow: scroll;
 }
 
 .datosPizza{
@@ -55,7 +73,7 @@ body{
 .datosPizza div{
     color: #fff;
     font-weight: bolder;
-    font-family:Shanti-Regular;
+    font-family: Shanti-Regular;
     text-align: center;
     flex: 0 100%;
     justify-content: space-between;
@@ -80,15 +98,4 @@ body{
     margin: auto;
     margin-top: 2%;
     align-self: center;
-}
-
-.boton{
-    background-color: #EA6969;
-    color: #fff;
-    font-size: 3em;
-    text-align: center;
-    width: 21%;
-    margin: auto;
-    padding: 3px;
-    border-radius: 5px;
 }
