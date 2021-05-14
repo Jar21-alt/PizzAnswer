@@ -1,0 +1,12 @@
+.contenedorpromos{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.promo{
+    margin-bottom: 100px;
+}
