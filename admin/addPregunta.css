@@ -1,0 +1,135 @@
+.menuPizzaAP {
+    background-color: #3C3C3C;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1536px;
+}
+.form{
+    position: absolute;
+    width: 625px;
+    height: 320px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin:auto;
+    left: 700px;
+    top: 285px;
+}
+select[name="area"],[name="tipo"]{
+    width: 620px;
+    height: 80px;
+    font-size: 35px;
+    color: darkslategray;
+    font-family:Shanti-Regular;
+}
+input[type=text]{
+    width: 620px;
+    height: 80px;
+    font-size: 35px;
+    color: darkslategray;
+    font-family:Shanti-Regular;
+}
+button[type=submitR]{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20;
+    width: 175px;
+    height: 65px;
+    margin-left: 150px;
+    border: 0px;
+    background-color: rgb(51,51,51);
+    font-family:Roboto-Bold;
+    top: 635px;
+    left: 750px;
+}
+button[type=submitA]{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20;
+    width: 175px;
+    height: 65px;
+    margin-left: 150px;
+    border: 0px;
+    background-color: rgb(51,51,51);
+    font-family:Roboto-Bold;
+    top: 635px;
+    left: 660px;
+}
+.pt1{
+    position: absolute;
+    color: white;
+    text-shadow: 0 3px 0 black;
+    font-size: 100px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: 5px;
+    left: 100;
+}
+.pt2{
+    position: absolute;
+    color: white;
+    text-shadow: 0 3px 0 rgb(68, 64, 64);
+    font-size: 80px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: 200px;
+    left: 225;
+}
+.pt3{
+    position: absolute;
+    color: white;
+    text-shadow: 0 3px 0 rgb(68, 64, 64);
+    font-size: 80px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: 315px;
+    left: 225;
+}
+.pt4{
+    position: absolute;
+    color: white;
+    text-shadow: 0 3px 0 rgb(68, 64, 64);
+    font-size: 80px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: 430px;
+    left: 225;
+}
+.pe1{
+    position: absolute;
+    font-size: 50px;
+    font-family:Shanti-Regular;
+    text-align: left;
+    top: 200px;
+    left: 350;
+}
+.pe2{
+    position: absolute;
+    font-size: 50px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: 300px;
+    left: 350;
+}
+.pe3{
+    position: absolute;
+    font-size: 50px;
+    font-family:Shanti-Regular;
+    text-align: left;
+    top: 400px;
+    left: 350;
+}
+.pe4{
+    position: absolute;
+    font-size: 50px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: 550px;
+    left: 350;
+}
