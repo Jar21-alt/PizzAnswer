@@ -43,7 +43,7 @@
 }
 .logoPizza {
     position: relative;
-    right:300px;
+    right:200px;
     color:white;
     font-size: 50px;
     font-family: Satisfy-Regular;
@@ -71,6 +71,7 @@
     right: -100;
     float: left;
     width: 280px;
+    top: 20px;
     background-color: #EA6969;
 }
 .article_uno{
@@ -86,6 +87,7 @@
 .logoP{
     position: relative;
     width: 90px;
+    right: -180px;
 }
 .promoSec2{
     font-size: 20px;
@@ -95,9 +97,10 @@
 }
 .section2{
     position: relative;
-    right: -260;
+    right: -240;
     float: left;
     width: 280px;
+    top: 20px;
     background-color: #EA6969;
 }
 .article_dos{
@@ -113,9 +116,10 @@
 }
 .section3{
     position: relative;
-    right: -415px;
+    right: -350px;
     float: left;
     width: 280px;
+    top: 20px;
     background-color: #EA6969;
 }
 .article_tres{
@@ -133,10 +137,10 @@
 .lateral1{
     position: absolute;
     width: 60px;
-    height: 576px;
+    height: 578px;
     background-color: #c4c4c4;
-    right: 1310px;
-    top: 80px;
+    right: 1250px;
+    top: 72px;
 }
 .lateral2{
     position: absolute;
@@ -144,5 +148,5 @@
     height: 576px;
     background-color: #c4c4c4;
     right: 0px;
-    top: 80px;
+    top: 72px;
 }
