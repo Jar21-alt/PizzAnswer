@@ -14,6 +14,9 @@
     font-family:Robot-Black;
     src: url(fonts/Roboto-Black.ttf);
 }
+html, body{
+    width: 100%;
+}
 .menuPizza {
     background-color: #3C3C3C;
     height: 5em;
@@ -21,9 +24,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    right: 10px;
-    width: 1368;
-    top: -8px;
+    width: 100%;
 }
 
 .menupizza_item {
@@ -45,8 +46,8 @@
     color: white;
 }
 .logoPizza {
-    position: relative;
-    right:200px;
+    position: absolute;
+    left:-10px;
     color:white;
     font-size: 50px;
     font-family: Satisfy-Regular;
