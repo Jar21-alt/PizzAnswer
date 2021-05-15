@@ -20,23 +20,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    right: 10px;
-    width: 1368;
+    position: absolute;
+    right: 0px;
+    width: 1477px;
     top: -8px;
 }
-
 .menupizza_item {
     display: flex;
     list-style: none;
     margin-right: 30px;
 }
-
 .menupizza_item li {
     border-radius: 3px;
     margin: 0 5px;
 }
-
 .menupizza_item li a { 
     padding: 8px 13px;
     font: 1em Roboto-Bold;
