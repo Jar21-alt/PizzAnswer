@@ -21,6 +21,8 @@ include_once 'conexion.php';
         </ul>
     </nav>
     </header>
+    <section class="lateral1"></section>
+    <section class="lateral2"></section>
     <h1 class="tituloBien">Bienvenido(a)</h1>
     <section class="section1">
         <p class="promoSec1"> Promociones</p>
