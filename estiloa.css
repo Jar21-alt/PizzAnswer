@@ -24,8 +24,8 @@ html, body{
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    right: 0px;
-    width: 1477px;
+    left: 0px;
+    width: 100%;
     top: -8px;
 }
 .menupizza_item {
