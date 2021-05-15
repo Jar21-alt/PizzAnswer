@@ -20,7 +20,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    position: relative;
+    right: 10px;
+    width: 1368;
+    top: -8px;
 }
 
 .menupizza_item {
@@ -132,16 +135,16 @@
 }
 .lateral1{
     position: absolute;
-    width: 90px;
-    height: 700px;
+    width: 60px;
+    height: 576px;
     background-color: #c4c4c4;
-    left: 0px;
+    right: 1310px;
     top: 80px;
 }
 .lateral2{
     position: absolute;
-    width: 90px;
-    height: 700px;
+    width: 60px;
+    height: 576px;
     background-color: #c4c4c4;
     right: 0px;
     top: 80px;
