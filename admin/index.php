@@ -52,13 +52,13 @@ if (isset($_POST['login'])) {
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <form method="POST" action="" name="signin-form">
-                    <br><br><br>
+                    <br><br><br><br><br><br>
                     <h1>Usuario:</h1>
                     <br>
-                    <input type="text" class="form-control" name="username" pattern="[a-zA-Z0-9]+" required><br>
+                    <input type="text" class="form-control" name="username" pattern="[a-zA-Z0-9]+" placeholder="Ingresa tu usuario" required><br>
                     <h1>Clave:</h1>
                     <br>
-                    <input type="password" class="form-control" name="password" required>
+                    <input type="password" class="form-control" name="password" placeholder="Ingresa tu contraseña" required>
                     <button class="btn btn-light mt-5" type="submit" name="login" value="login"> Iniciar sesión </button>
                 </form>
             </div>
