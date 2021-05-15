@@ -1,20 +1,3 @@
-@font-face{
-    font-family:Satisfy-Regular;
-    src:url(fonts/Satisfy-Regular.ttf);
-}
-@font-face{
-    font-family:Roboto-Bold;
-    src:url(fonts/Roboto-Bold.ttf);
-}
-@font-face{
-    font-family:Shanti-Regular;
-    src:url(fonts/Shanti-Regular.ttf)
-}
-@font-face {
-    font-family:Robot-Black;
-    src: url(fonts/Roboto-Black.ttf);
-}
-
 html, body{
     height: 100%;
 }

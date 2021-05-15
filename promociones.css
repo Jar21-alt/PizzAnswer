@@ -1,10 +1,16 @@
+html, body{
+    height: 100%;
+}
+
 .contenedorpromos{
-    display: flex;
-    flex-flow: column wrap;
+    /* display: flex;
+    flex-flow: column wrap; */
     text-align: center;
     width: 80%;
+    height: 70%;
     margin: auto;
     margin-top: 5%;
+    overflow: scroll;
 }
 
 .promo{
