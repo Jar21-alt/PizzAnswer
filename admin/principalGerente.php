@@ -1,3 +1,14 @@
+<?php
+include_once '..\conexion.php';
+// session_start();
+ 
+// if(!isset($_SESSION['user_id'])){
+//     header('Location: index.php');
+//     exit;
+// } else {
+//     // Show users the page!
+// }
+?>
 <html lang="es">
 <head>
     <meta charset="UTF-8">

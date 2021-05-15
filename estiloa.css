@@ -14,16 +14,24 @@
     font-family:Robot-Black;
     src: url(fonts/Roboto-Black.ttf);
 }
+html, body{
+    width: 100%;
+}
 .menuPizza {
     background-color: #3C3C3C;
     height: 5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     position: absolute;
     right: 0px;
     width: 1477px;
     top: -8px;
+=======
+    position: relative;
+    width: 100%;
+>>>>>>> 518feee8033adbf36d0da4e5a53ef301b049fe79
 }
 .menupizza_item {
     display: flex;
@@ -43,8 +51,8 @@
     color: white;
 }
 .logoPizza {
-    position: relative;
-    right:200px;
+    position: absolute;
+    left:-10px;
     color:white;
     font-size: 50px;
     font-family: Satisfy-Regular;
