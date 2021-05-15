@@ -8,7 +8,7 @@ $gsent->execute();
 
 $resultado = $gsent->fetchAll();
 
-echo strtotime(date("Y-m-d", time()));
+//echo strtotime(date("Y-m-d", time()));
 
 //var_dump($resultado);
 
