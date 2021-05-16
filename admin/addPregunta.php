@@ -24,8 +24,8 @@ $resultado = $gsent->fetchAll();
             <img src="../images/logoNegro.PNG" class="logoP">
             <label class="logoPizza">PizzAnswer/Gerencia</label>
             <ul class="menupizza_item">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Promociones</a></li>
+                <li><a href="principalGerente.php">Inicio</a></li>
+                <li><a href="verPromo.php">Promociones</a></li>
                 <li><a href="#">Encuesta</a></li>
             </ul>
         </nav>
@@ -33,7 +33,7 @@ $resultado = $gsent->fetchAll();
     <div class="form">
         <form action="#" method="POST">
             <select name="area">
-                <option selected disabled="">Selecciona una opción</option>
+                <option selected disabled="">Seleccione una opción</option>
                 <option value="pedidos">Levantamiento de pedidos</option>
                 <option value="cocina">Cocina</option>
                 <option value="servdomicilio">Servicio a domicilio</option>
@@ -42,8 +42,8 @@ $resultado = $gsent->fetchAll();
             <br>
             <br>
             <select name="tipo">
-                <option selected disabled="">Selecciona una opción</option>
-                <option value="satisfaccion">Pregunta de satisfaccion</option>
+                <option selected disabled="">Seleccione una opción</option>
+                <option value="satisfaccion">Pregunta de satisfacción</option>
                 <option value="abierta">Pregunta abierta</option>
             </select>
             <br>
