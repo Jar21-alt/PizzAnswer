@@ -45,7 +45,7 @@ $resultado = $gsent->fetchAll();
     <h1 class="tituloBien"> Promociones </h1>
     <div class="contenedorpromos">
         <?php foreach ($resultado as $dato) : ?>
-            <?php if (strtotime($dato['vigenciaPromo']) > strtotime(date("d-m-Y", time()))) : ?>
+            <?php if (strtotime($dato['vigenciaPromo']) >= strtotime(date("d-m-Y", time()))) : ?>
                 <div class="promo">
                     <img src="promos/<?php echo $dato['imagen'] ?>" alt="">
                 </div>
