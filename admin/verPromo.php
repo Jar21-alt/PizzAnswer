@@ -56,9 +56,9 @@ if (!isset($_SESSION['user_id'])) {
         <?php endforeach ?>
     </div>
     <div class="contenedorbotones">
-        <button type="#">Agregar</button>
-        <button type="#">Eliminar</button>
-        <button type="#">Regresar</button>
+        <a href="addPromo.php"><button type="#" class="botones">Agregar</button></a>
+        <a href=""><button type="#" class="botones">Eliminar</button></a>
+        <a href=""><button type="#" class="botones">Regresar</button></a>
     </div>
 </body>
 
