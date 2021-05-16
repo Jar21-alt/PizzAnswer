@@ -21,8 +21,8 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    right: 0px;
-    width: 1477px;
+    left: 0px;
+    width: 100%;
     top: -8px;
 }
 .menupizza_item {
@@ -42,8 +42,8 @@
     color: white;
 }
 .logoPizza {
-    position: relative;
-    right:200px;
+    position: absolute;
+    left:-10px;
     color:white;
     font-size: 50px;
     font-family: Satisfy-Regular;
@@ -88,8 +88,7 @@
 }
 .logoP{
     position: relative;
-    width: 90px;
-    right: -180px;
+    width: 88px;
 }
 .promoSec2{
     font-size: 20px;
