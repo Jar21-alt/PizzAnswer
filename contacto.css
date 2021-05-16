@@ -10,11 +10,10 @@ html, body{
 
 .contenedorFlex{
     margin: 1%;
-    height: 100%;
-    padding-top: 50px;
+    height: 90%;
 }
   
-.row {
+.row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -22,7 +21,7 @@ html, body{
     height: 100%;
 }
   
-.column {
+.column{
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -36,7 +35,7 @@ html, body{
     height: 100%;
 }
   
-.left-column {
+.left-column{
     height: 100%;
     margin: 5%;
     border: 5px solid #EA6969;
