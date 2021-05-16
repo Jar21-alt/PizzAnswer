@@ -21,8 +21,8 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    right: 0px;
-    width: 1477px;
+    left: 0px;
+    width: 100%;
     top: -8px;
 }
 .menupizza_item {
@@ -42,8 +42,8 @@
     color: white;
 }
 .logoPizza {
-    position: relative;
-    right:200px;
+    position: absolute;
+    left:-10px;
     color:white;
     font-size: 50px;
     font-family: Satisfy-Regular;
@@ -51,11 +51,12 @@
 }
 .tituloBien{
     color: #464545;
-    font-size: 30px;
+    font-size: 50px;
     font-family:Shanti-Regular;
     text-align: center;
     position: relative;
-    top: 65px;
+    margin: auto;
+    top: 68px;
 }
 .promo1{
     position: relative;
@@ -88,8 +89,7 @@
 }
 .logoP{
     position: relative;
-    width: 90px;
-    right: -180px;
+    width: 88px;
 }
 .promoSec2{
     font-size: 20px;
@@ -139,15 +139,15 @@
 .lateral1{
     position: absolute;
     width: 60px;
-    height: 578px;
+    height: 90%;
     background-color: #c4c4c4;
-    right: 1250px;
+    left: 0px;
     top: 72px;
 }
 .lateral2{
     position: absolute;
     width: 60px;
-    height: 576px;
+    height: 90%;
     background-color: #c4c4c4;
     right: 0px;
     top: 72px;

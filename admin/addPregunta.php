@@ -1,7 +1,7 @@
 <?php
 include_once '..\conexion.php';
 
-$sql_leer = 'SELECT * FROM Pregunta';
+$sql_leer = 'SELECT * FROM pregunta';
 
 $gsent = $pdo->prepare($sql_leer);
 $gsent->execute();
