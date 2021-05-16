@@ -50,7 +50,7 @@ $resultado = $gsent->fetchAll();
     <p class="pt2">Nombre:</p>
     <p class="pt3">Vigencia:</p>
     <p class="pt4">Imagen Promo:</p>
-    <button type="submitR">Regresar</button>
-    <button type="submitA">Aceptar</button>
+    <a href="verPromo.php"><button type="submitR">Regresar</a>
+    <a style="text-decoration:none" href="#"><button type="submitA">Aceptar</a>
 </body>
 </html
