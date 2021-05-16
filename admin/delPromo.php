@@ -57,8 +57,8 @@ $resultado = $gsent->fetchAll();
         ?>
         <table border="1" width="50%">
             <tr>
-                <th width="41%">Nombre Promo</th>
-                <th width="50%">Vigencia</th>
+                <th width="60%">Nombre Promo</th>
+                <th width="31%">Vigencia</th>
                 <th width="9%">Opcion</th>
             </tr>
             <?php
