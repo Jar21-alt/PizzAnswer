@@ -17,6 +17,7 @@ $resultado = $gsent->fetchAll();
 
 
 ?>
+
 <html lang="es">
 
 <head>
@@ -25,9 +26,11 @@ $resultado = $gsent->fetchAll();
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" href="bootstrap.min.css" rel="stylesheet">
     <link rel='stylesheet' type="text/css" href="../estiloa.css">
-    <link rel='stylesheet' type="text/css" href="verPromo.css">
-    <title>Gerente Promociones</title>
+    <link rel='stylesheet' type="text/css" href="delPromo.css">
+    <title>Eliminar Promociones</title>
 </head>
 
 <body>
@@ -44,22 +47,40 @@ $resultado = $gsent->fetchAll();
         </nav>
     </header>
     <div class="titulo">
-        Promociones
+        Eliminar Promocion
     </div>
-    <div class="contenedorpromos">
-        <?php foreach ($resultado as $dato) : ?>
-            <?php if (strtotime($dato['vigenciaPromo']) >= strtotime(date("d-m-Y", time()))) : ?>
-                <div class="promo">
-                    <img src="../promos/<?php echo $dato['imagen'] ?>" alt="" class="imgPromo">
-                </div>
-            <?php endif; ?>
-        <?php endforeach ?>
+    <div class="main-wrapper">
+        <br><br>
+
+        <?php
+        include("delete/function.php");
+        ?>
+        <table border="1" width="50%">
+            <tr>
+                <th width="41%">Nombre Promo</th>
+                <th width="50%">Vigencia</th>
+                <th width="9%">Opcion</th>
+            </tr>
+            <?php
+            $sql = "select * from promocion";
+            $result = db_query($sql);
+            while ($row = mysqli_fetch_object($result)) {
+            ?>
+                <tr>
+                    <td><?php echo $row->nombrePromo; ?></td>
+                    <td><?php echo $row->vigenciaPromo; ?></td>
+                    <td>
+                        <a class="btn btn-primary" href="delete/borrar.php?id=<?php echo $row->idPromocion; ?>"><i class="fa fa-trash-o fa-lg" aria-hidden="true"></i></a>
+                    </td>
+                </tr>
+            <?php } ?>
+        </table>
     </div>
     <div class="contenedorbotones">
-        <a href="addPromo.php"><button type="#" class="botones">Agregar</button></a>
-        <a href="delPromo.php"><button type="#" class="botones">Eliminar</button></a>
-        <a href=""><button type="#" class="botones">Regresar</button></a>
+        <a href="verPromo.php"><button type="#" class="botones">Guardar y salir</button></a>
     </div>
+
+    
 </body>
 
 </html>
