@@ -139,15 +139,15 @@
 .lateral1{
     position: absolute;
     width: 60px;
-    height: 578px;
+    height: 90%;
     background-color: #c4c4c4;
-    right: 1250px;
+    left: 0px;
     top: 72px;
 }
 .lateral2{
     position: absolute;
     width: 60px;
-    height: 576px;
+    height: 90%;
     background-color: #c4c4c4;
     right: 0px;
     top: 72px;
