@@ -78,6 +78,7 @@ button[type=submitR]{
     top: 645px;
     left: 820px;
 }
+
 button[type=submitA]{
     position: relative;
     color: white;
@@ -91,7 +92,8 @@ button[type=submitA]{
     background-color: rgb(51,51,51);
     font-family:Roboto-Bold;
     top: 645px;
-    left: 720px;
+    left: 725px;
+    text-decoration: none;
 }
 .pt1{
     position: absolute;
