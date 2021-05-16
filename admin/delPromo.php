@@ -70,7 +70,7 @@ $resultado = $gsent->fetchAll();
                     <td><?php echo $row->nombrePromo; ?></td>
                     <td><?php echo $row->vigenciaPromo; ?></td>
                     <td>
-                        <a class="btn btn-danger" href="delete/borrar.php?id=<?php echo $row->idPromocion; ?>"><i class="fa fa-trash-o fa-lg" aria-hidden="true"></i></a>
+                        <a class="btn btn-danger" href="delete/borrarPromo.php?id=<?php echo $row->idPromocion; ?>"><i class="fa fa-trash-o fa-lg" aria-hidden="true"></i></a>
                     </td>
                 </tr>
             <?php } ?>
