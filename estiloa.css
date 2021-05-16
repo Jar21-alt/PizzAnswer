@@ -81,7 +81,7 @@ body{
     font-family:Roboto-Bold;
     text-align: left;
     top: 130px;
-    right: 750px;
+    right: 860px;
 }
 .tit3{
     position: absolute;
@@ -89,8 +89,8 @@ body{
     font-size: 35px;
     font-family:Roboto-Bold;
     text-align: left;
-    top: 10px;
-    right: 750px;
+    top: 170px;
+    right: 840px;
 }
 .tit4{
     position: absolute;
@@ -98,8 +98,8 @@ body{
     font-size: 35px;
     font-family:Roboto-Bold;
     text-align: left;
-    top: 10px;
-    right: 750px;
+    top: 270px;
+    right: 680px;
 }
 .tit5{
     position: absolute;
@@ -107,6 +107,33 @@ body{
     font-size: 35px;
     font-family:Roboto-Bold;
     text-align: left;
-    top: 10px;
-    right: 750px;
+    top: 400px;
+    right: 980px;
+}
+.tit6{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    font-family:Roboto-Bold;
+    text-align: left;
+    top: 550px;
+    right: 790px;
+}
+.facehappy{
+    position: relative;
+    top: 270px;
+    width: 80px;
+    right: -150px;
+}
+.facebored{
+    position: relative;
+    top: 410px;
+    width: 80px;
+    right: -65px;
+}
+.facesad{
+    position: relative;
+    top: 550px;
+    width: 80px;
+    right: 20px;
 }

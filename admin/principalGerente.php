@@ -34,10 +34,14 @@ include_once '..\conexion.php';
     </header>
     <img src="../images/pizzGerent.PNG" class="logoGerentP">
     <p class="tit1">¡Buenas tardes!</p>
-    <h1 class="tit2">Esta semana la pizzeria se siente:</h1>
-    <h1 class="tit3">Levantamiento de pedidos</h1>
-    <h1 class="tit4">Cocina</h1>
-    <h1 class="tit5">Servicio a domicilio</h1>
+    <p class="tit2">Esta semana la</p>
+    <p class="tit3">pizzeria se siente:</p>
+    <img src="../images/happyface.png" class="facehappy">
+    <img src="../images/happybored.png" class="facebored">
+    <img src="../images/happysad.png" class="facesad">
+    <p class="tit4">Levantamiento de pedidos</p>
+    <p class="tit5">Cocina</p>
+    <p class="tit6">Servicio a domicilio</p>
 </body>
 
 </html
