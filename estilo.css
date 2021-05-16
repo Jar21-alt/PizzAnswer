@@ -51,11 +51,12 @@
 }
 .tituloBien{
     color: #464545;
-    font-size: 30px;
+    font-size: 50px;
     font-family:Shanti-Regular;
     text-align: center;
     position: relative;
-    top: 65px;
+    margin: auto;
+    top: 68px;
 }
 .promo1{
     position: relative;

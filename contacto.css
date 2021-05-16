@@ -4,13 +4,14 @@ html, body{
 
 .padreContacto{
     width: 80%;
-    height: 75%;
+    height: 80%;
     margin: auto;
 }
 
 .contenedorFlex{
     margin: 1%;
     height: 100%;
+    padding-top: 50px;
 }
   
 .row {
