@@ -40,8 +40,11 @@ $resultado = $gsent->fetchAll();
     </header>
     <section class="lateral1"></section>
     <section class="lateral2"></section>
+    <div>
+    <h1 class="tituloBien"> ¡Contactanos! </h1>
+    </div>
+    <br><br>
     <section class="padreContacto">
-        <h1 class="tituloBien"> ¡Contactanos! </h1>
         <div class='contenedorFlex'>
             <div class='row'>
                 <div class='column'>
@@ -65,7 +68,9 @@ $resultado = $gsent->fetchAll();
             </div>
         </div>
         <div class="d-flex justify-content-center">
+            <a href="#">
             <div type="button" class="btn btn-danger">Regresar</div>
+            </a>
         </div>
     </section>
 
