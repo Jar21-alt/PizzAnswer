@@ -68,7 +68,7 @@ $resultado = $gsent->fetchAll();
             </div>
         </div>
         <div class="d-flex justify-content-center">
-            <a href="#">
+            <a href="index.php">
             <div type="button" class="btn btn-danger">Regresar</div>
             </a>
         </div>

@@ -1,10 +1,20 @@
 html, body{
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
-
+.menuPizzaAP {
+    background-color: #3C3C3C;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1536px;
+}
 .titulo{
     font-size: 5em;
     position: relative;
